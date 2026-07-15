@@ -1,1 +1,7 @@
-[scemepetrushkagreen](https://github.com/annapilkewitch/petrushkagreen/blob/main/schemepetrushkagreen.jpg)
+![schemepetrushkagreen](https://github.com/annapilkewitch/petrushkagreen/blob/main/schemepetrushkagreen.jpg)
+
+1. Внутренние микросервисы (Корзина, Реклама, Доставка) при наступлении соответствующего бизнес-события направляют запрос о создании уведомления
+во внутренний микросервис "Push-уведомления". 
+3. Внутренний микросервис "Push-уведомления" создает и отправляет уведомление в Remote Push Service (удаленный сервис уведомлений).
+4. Remote Push Service направляет уведомление на устройство в Push Service (собственный сервис уведомлений на устройстве). 
+5. На устройстве сервис Push Service распределяет полученное уведомление сервису конкретного приложения (App "Петрушка Зеленая").
