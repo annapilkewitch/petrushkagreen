@@ -4,7 +4,7 @@
 ![screen layout](https://github.com/annapilkewitch/petrushkagreen/blob/main/screenlayoutpetrushkagreen.jpg)
 
 REST API запрос, который будет вызываться при переходе пользователя на данный экран:
-GET \https://api.petrushka-green.ru/v1/partner-stores
+GET <https://api.petrushka-green.ru/v1/partner-stores>
 
 
 Пример ответа REST API в соответствии с макетом:
