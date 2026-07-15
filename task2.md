@@ -4,6 +4,7 @@
 ![screen layout](https://github.com/annapilkewitch/petrushkagreen/blob/main/screenlayoutpetrushkagreen.jpg)
 
 REST API запрос, который будет вызываться при переходе пользователя на данный экран:
+
 GET https://<span></span>api.petrushka-green.ru/v1/partner-stores
 
 
